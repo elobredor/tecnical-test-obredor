@@ -1,0 +1,21 @@
+{
+	"name": "tecnical-test",
+	"version": "1.0.0",
+	"main": "index.js",
+	"workspaces": [
+		"api_rest",
+		"app"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "concurrently \"npm run dev --prefix api_rest\" \"npm run dev --prefix app"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@s-ui/mono": "^2.45.0",
+		"concurrently": "^9.1.0"
+	}
+}
