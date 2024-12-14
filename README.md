@@ -12,7 +12,7 @@ Make sure you have **Node.js** and **npm** installed on your system.
 ## Installation
 
 1. clone repo
-2. cd tecnical-test
+2. cd tecnical-test-obredor
 3. npm install
 4. npm run dev
 5. open http://localhost:5173/
